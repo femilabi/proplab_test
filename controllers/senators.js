@@ -36,7 +36,7 @@ router
             where
         })
 
-        if (senators) {
+        if (senators.length) {
             return response
                 .assignData("senators", senators)
                 .setMsg("success", "success")
