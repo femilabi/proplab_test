@@ -5,6 +5,9 @@ const path = require("path");
 const { config } = require("../services/main.fns");
 
 const sequelize = new Sequelize(config("db_conf.name"), config("db_conf.username"), config("db_conf.password"), {
+    dialectOptions: {
+        multipleStatements: true
+    },
     host: config("db_conf.host"),
     dialect: config("db_conf.dialect"),
     hooks: {
