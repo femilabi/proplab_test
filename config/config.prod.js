@@ -5,8 +5,8 @@ module.exports = {
     DB_CONF: {
         PREFIX: "",
         NAME: "proplab_test",
-        USERNAME: "root",
-        PASSWORD: "",
+        USERNAME: "proplab_test",
+        PASSWORD: "WjV$ZbaXD#5U7hw",
         HOST: "localhost",
         DIALECT: "mysql"
     }
