@@ -43,7 +43,7 @@ router
                 .send();
         } else {
             return response
-                .setMsg("No data matches in the records", "error")
+                .setMsg("No data matches your query in the records", "error")
                 .send();
         }
     });
