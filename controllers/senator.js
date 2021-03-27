@@ -10,7 +10,7 @@ const { models } = require("../database/index");
 const { Senator } = models;
 
 router
-    // .use(requireAuth)
+    .use(requireAuth)
     .post("/", validate(senatorDataValidator(), true), async (req, res) => {
         const response = new responseHandler(req, res);
         Senator

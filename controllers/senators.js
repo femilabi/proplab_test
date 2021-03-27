@@ -10,7 +10,7 @@ const { Senator } = require("../database/index").models;
 const { query } = require("express-validator");
 
 router
-    // .use(requireAuth)
+    .use(requireAuth)
     .get("/", async (req, res) => {
         const response = new responseHandler(req, res);
 
