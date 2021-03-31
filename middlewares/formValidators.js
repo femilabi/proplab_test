@@ -51,14 +51,12 @@ exports.registerValidator = () => {
         .withMessage("First name field is required")
         // .custom((val) => /[^A-za-z\s]/g.test(val))
         // .withMessage("First name supplied is invalid")
-        ,
-    body("lastName")
+    ,body("lastName")
         .notEmpty()
         .withMessage("Middle name field is required")
         // .custom((val) => /[^A-za-z\s]/g.test(val))
         // .withMessage("Middle name supplied is invalid")
-        ,
-    body("password")
+    ,body("password")
         .notEmpty()
         .withMessage("password field is required")
         .isLength({ min: 8 })
