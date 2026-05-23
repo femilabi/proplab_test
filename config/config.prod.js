@@ -4,10 +4,10 @@ module.exports = {
     RESPONSE_TYPE: "JSON", // Production
     DB_CONF: {
         PREFIX: "",
-        NAME: "sql10401698",
-        USERNAME: "sql10401698",
-        PASSWORD: "mYW2rYxgtD",
-        HOST: "sql10.freemysqlhosting.net",
+        NAME: "******",
+        USERNAME: "********",
+        PASSWORD: "********",
+        HOST: "******.freemysqlhosting.net",
         DIALECT: "mysql"
     }
 }
